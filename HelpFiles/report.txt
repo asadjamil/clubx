@@ -1,0 +1,11 @@
+Case1:
+Single: time > 29
+Double: time > 42
+
+
+Booking algorithm on local network
+
+
+----Work Period----
+Check Work Period ON
+Get Work Period Values

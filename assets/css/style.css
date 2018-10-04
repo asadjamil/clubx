@@ -1,0 +1,363 @@
+.snooker-table {
+    position: relative;
+  }
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.text-div {
+  transition: .5s ease;
+  opacity: 1;
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.text {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+.button-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+@media only screen and (min-width: 1160px){
+  .button-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1160px){
+  .button-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  .btn.btn-fill.btn-wd.btn-block{
+    height: 28px;
+    line-height: 10%;
+    text-align: center;
+  }
+  .text{
+    font-size:18px;
+  }
+}
+@media only screen and (min-width: 992px){
+  .navbar{
+    display:none;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 992px){
+  .button-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+}
+@media only screen and (min-width: 767px) and (max-width: 900px){
+  .button-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  .btn.btn-fill.btn-wd.btn-block{
+    height: 28px;
+    line-height: 10%;
+    text-align: center;
+  }
+  .text{
+    font-size:18px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 485px){
+  .button-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  .btn.btn-fill.btn-wd.btn-block{
+    height: 27px;
+    line-height: 10%;
+    text-align: center;
+  }
+  .text{
+    font-size:18px;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 400px){
+  .button-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  .btn.btn-fill.btn-wd.btn-block{
+    height: 22px;
+    line-height: 10%;
+    text-align: center;
+  }
+  .text{
+    font-size:14px;
+  }
+}
+@media only screen and  (max-width: 360px){
+  .button-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  .btn.btn-fill.btn-wd.btn-block{
+    height: 18px;
+    margin-bottom:-5px;
+    line-height: 7%;
+    text-align: center;
+  }
+  .text{
+    font-size:12px;
+  }
+}
+.clock-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+@media only screen and  (min-width: 1230px){
+  .clock-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+}
+@media only screen and  (min-width: 1130px) and (max-width: 1229px){
+  .clock-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+}
+@media only screen and  (min-width: 1030px) and (max-width: 1129px){
+  .clock-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+}
+@media only screen and  (min-width: 992px) and (max-width: 1029px){
+  .clock-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+}
+@media only screen and  (min-width: 892px) and (max-width: 991px){
+  .clock-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+}
+@media only screen and  (min-width: 800px) and (max-width: 891px){
+  .clock-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+}
+@media only screen and  (min-width: 768px) and (max-width: 799px){
+  .clock-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+}
+@media only screen and  (min-width: 666px) and (max-width: 767px){
+  .clock-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+}
+@media only screen and  (min-width: 566px) and (max-width: 665px){
+  .clock-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 81%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+}
+@media only screen and  (min-width: 500px) and (max-width: 565px){
+  .clock-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+}
+@media only screen and  (min-width: 400px) and (max-width: 499px){
+  .clock-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+}
+@media only screen and  (min-width: 360px) and (max-width: 399px){
+  .clock-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+}
+@media only screen and (min-width: 330px) and (max-width: 359px){
+  .clock-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+}
+@media only screen and (max-width: 329px){
+  .clock-div {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+}
+/*.snooker-table:hover .image {
+  opacity: 0.3;
+}*/
+.game-control-div {
+  transition: .5s ease;
+  opacity: 1;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.player-div {
+  transition: .5s ease;
+  opacity: 1;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.btn.btn-fill{
+  width:100px;
+}
+/* List Hover */
+.link-class:hover{
+  background-color:#f1f1f1;
+}
+/* Toggle */
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 20px; }
+.toggle.ios .toggle-handle { border-radius: 20px; }
+.btn span.glyphicon {               
+    opacity: 0;             
+}
+.btn.active span.glyphicon {                
+    opacity: 1;             
+}
+.btn-danger{
+    background-color: #d43f3a;
+}

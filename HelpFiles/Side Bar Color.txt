@@ -1,0 +1,12 @@
+Side Bar Color(Ipad View)
+light-bootstrap-dashboard.js
+Line # 104
+ul_content = '<div class="sidebar-wrapper" style="background:color;">' +
+                            '<ul class="nav navbar-nav">' +
+                                ul_content +
+                            '</ul>' +
+                          '</div>';
+
+Change Logo Color and Side bar in dashboard.php
+<div class="sidebar-wrapper" style="background:black">
+            <div class="logo" style="background-color:black">                          
